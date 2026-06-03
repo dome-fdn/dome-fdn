@@ -62,7 +62,7 @@ DOME_SIGN_IN_MESSAGE = "Dome shielded account sign in"
 | Repository | Description | Status |
 | --- | --- | --- |
 | [**dome-core-evm**](https://github.com/dome-fdn/dome-core-evm) | Hardhat contracts, Circom circuits, deploy scripts, Groth16 artifacts | Active |
-| [**dome-sdk-evm**](https://github.com/dome-fdn/dome-sdk-evm) | TypeScript SDK — `@dome/sdk-evm` for deposit / withdraw / balance | Active |
+| [**dome-sdk-evm**](https://github.com/dome-fdn/dome-sdk-evm) | TypeScript SDK — `@dome-foundation/sdk-evm` for deposit / withdraw / balance | Active |
 | [**dome-backend**](https://github.com/dome-fdn/dome-backend) | Indexer, relayer, RPC proxy, dev faucet | Active |
 | [**dome-contracts**](https://github.com/dome-fdn/dome-contracts) | Legacy Foundry shielded pool (pre–core-evm) | Archived |
 | [**dome-circuits**](https://github.com/dome-fdn/dome-circuits) | Legacy Circom spend circuit | Archived |
@@ -88,7 +88,7 @@ DOME_SIGN_IN_MESSAGE = "Dome shielded account sign in"
 1. **Read the docs** — start at [docs.getdome.app](https://docs.getdome.app) for wallet, protocol, SDK, and operations guides
 2. **Contracts & circuits** — clone [`dome-core-evm`](https://github.com/dome-fdn/dome-core-evm), configure Base mainnet env, and deploy with the mainnet scripts
 3. **Backend** — clone [`dome-backend`](https://github.com/dome-fdn/dome-backend), configure the deployed pool, and run the indexer + relayer
-4. **Integrate** — install [`@dome/sdk-evm`](https://github.com/dome-fdn/dome-sdk-evm) or use it from source
+4. **Integrate** — install [`@dome-foundation/sdk-evm`](https://github.com/dome-fdn/dome-sdk-evm) or use it from source
 
 Circuit proving keys (`transaction2.wasm`, `transaction2.zkey`) are served over HTTPS from `https://circuits.getdome.app`.
 
